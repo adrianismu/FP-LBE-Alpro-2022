@@ -16,15 +16,21 @@ Catatan: Program tidak harus dapat dijalankan, cukup ditunjukkan implementasi ko
 
 ```java
 public class Telephone extends Telecommunication {
-  //....
+
+  ....
+
 }
 
 public class VOIP extends Telecommunication {
-  //....
+
+  ....
+
 }
 
 public class MobilePhone extends Telephone {
-  //....
+
+  ....
+
 }
 ```
 
@@ -33,8 +39,9 @@ public class MobilePhone extends Telephone {
 public class MobilePhone extends Telephone {
 
     private String modelName;
-    //...
-  //...
+
+  ....
+
 }
 ```
 
@@ -42,7 +49,9 @@ public class MobilePhone extends Telephone {
 
 ```java
 public abstract class Telecommunication {
+
   ....
+
 }
 ```
 
@@ -57,6 +66,8 @@ class Test {
     test[1] = new Telephone("479-208-1992", "479-215-3931");
     test[2] = new VOIP("410-331-9081", "561-364-6107", true);
     test[3] = new VOIP("919-239-4504", "760-398-8588", false);
-  //...
+
+  ....
+
 }
 ```
