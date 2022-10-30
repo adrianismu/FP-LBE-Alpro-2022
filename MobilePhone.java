@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class MobilePhone extends Telephone {
 
@@ -24,16 +23,6 @@ public class MobilePhone extends Telephone {
         System.out.println(getModelName());
         System.out.println("from " + getFromNumber());
         System.out.println("Calling " + getToNumber());
-    }
-
-    public void message() {
-        try (Scanner msg = new Scanner(System.in)) {
-            messageText = msg.nextLine();
-        }
-
-        System.out.println(getModelName());
-        System.out.println("from " + getFromNumber());
-        System.out.println("To " + getToNumber());
     }
 
 }
